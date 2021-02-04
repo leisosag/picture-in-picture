@@ -4,5 +4,27 @@
   padding: 0;
 }
 body {
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+button {
+  padding: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  background-color: #fafafa;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+button:active {
+  transform: translateY(3px);
 }

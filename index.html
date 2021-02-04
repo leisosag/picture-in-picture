@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Picture in Picture</title>
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <video id="video" controls height="360" width="640" hidden></video>
+    <div class="button-container">
+      <button id="start-button">START</button>
+    </div>
     <!-- script -->
     <script src="script.js"></script>
   </body>
